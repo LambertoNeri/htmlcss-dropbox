@@ -19,6 +19,11 @@ body{
     padding-bottom: 1rem;
     padding-inline: 1rem;
 }
+.bluelink {
+    background-color: #0061FF;
+    color: white;
+    text-decoration: none;
+}
 
 /*Header*/
 header{
@@ -51,10 +56,6 @@ nav div ul{
     align-items: center;
 }
 
-nav div ul .small-button{
-    background-color: #0061FF;
-    color: white;
-}
 
 .container-header{                          /*main header*/
    padding-top: 6rem;
@@ -81,10 +82,7 @@ nav div ul .small-button{
     display: flex;
 }
 
-.header-right img{
-    width: 100%;
 
-}
 .header-left{
 
     flex: 0 0 30%;
@@ -101,19 +99,29 @@ nav div ul .small-button{
     max-width: 65%;
 }
 
-.header-left > div{
-
-}
 
 .down-arrow{
     font-size: 3rem;
     display: flex;
     margin-top: 5rem;
+    padding-bottom: 1.5rem;
 
 }
 
 .header-p{
     line-height: 1.5rem;
+}
+
+.header-right{
+    position: relative;
+    width: 100%;
+}
+.header-right img{
+    width: 100%;
+    position: absolute;
+    bottom: -5rem;
+    right: 0rem;
+
 }
 
 /*Main*/
