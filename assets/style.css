@@ -19,10 +19,43 @@ body{
     padding-bottom: 1rem;
     padding-inline: 1rem;
 }
+
+.medium-button{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-inline: 2.3rem;
+}
+
 .bluelink {
     background-color: #0061FF;
     color: white;
     text-decoration: none;
+}
+
+.margin-right{
+    margin-right: 3rem;
+}
+
+.vertical-align{
+    text-align: center;
+}
+
+.one-k-width{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.fa-check{
+    color: #0061FF;
+    font-size: 1.2rem;
+}
+
+.greytext{
+    color: #D0D0D3;
 }
 
 /*Header*/
@@ -42,6 +75,7 @@ nav{
     left: 0;
     right: 0;
     top: 0;
+    z-index: 100;
     
 }
 .nav-left, .nav-right{
@@ -51,7 +85,6 @@ nav div ul{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    list-style-type: none;
     gap: 1.8rem;
     align-items: center;
 }
@@ -126,6 +159,62 @@ nav div ul{
 
 /*Main*/
 
+.section-one{                                        /*First Section*/  
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: space-around;
+    align-items: start;
+}
 
+.section-one h2{
+    font-size: 2rem;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+.section-container{
+    margin-top: 4rem;
+    display: flex;
+}
+
+.business-plan{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.card{                            /*Card*/
+    border: 1px solid black;
+}
+
+.card-body ul{
+    padding-inline: 2rem;
+}
+
+.card-body li{
+    margin-top: 1.5rem;
+}
+
+.centrato{
+    padding-top: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.weightup{
+    font-weight: 900;
+}
+
+.bottomline{
+    width: 4rem;
+    border-bottom: 1px solid #D0D0D3;
+}
 
 /*Footer*/
