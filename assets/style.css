@@ -5,11 +5,38 @@
 }
 
 /* General style */
-
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+.small-button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-inline: 1rem;
+}
 
 /*Header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+.navleft.navright{
+    flex: 0 0 50%;
+}
+nav div ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+    
+}
 
-
+nav div ul .small-button{
+    background-color: #0061FF;
+}
 /*Main*/
 
 
