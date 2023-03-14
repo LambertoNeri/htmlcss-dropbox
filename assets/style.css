@@ -113,6 +113,10 @@ ul{
     font-weight: 900;
 }
 
+.small-font{
+    font-size: 0.8rem;
+}
+
 /*Header*/
 
 header{
@@ -349,10 +353,6 @@ input[type="radio"]{
     display: inline-block;
 }
 
-.second-section-main{
-   
-}
-
 .first-half{
     display: flex;
     justify-content: space-between;
@@ -375,5 +375,64 @@ input[type="radio"]{
 .second-section-card ul img{
     width: 100%;
     min-width: 323px;
+}
+
+.titolo-sotto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.third-section{                     /*Third Section*/
+    display: flex;
+}
+ 
+.big-container{
+    flex: 0 0 calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quad-center{
+    flex: 0 0 50%;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.quadratozzi div img{
+    width: 200px;
+}
+
+.green{
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
+    width: 300px;
+    height: 300px;
+}
+
+.bordò{
+    background-color: #61082B;
+    width: 300px;
+    height: 300px;
+}
+
+.azure{
+    background-color: #0093CE;
+    width: 300px;
+    height: 300px;
+}
+
+.red{
+    background-color: #FF1C1C;
+    width: 300px;
+    height: 300px;
 }
 /*Footer*/
