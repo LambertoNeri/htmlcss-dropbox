@@ -5,9 +5,11 @@
 }
 
 /* General style */
+
 body{
     font-family: 'Golos Text', sans-serif;
 }
+
 .small-button{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -23,7 +25,13 @@ body{
 .medium-button{
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
-    padding-inline: 2.3rem;
+    padding-inline: 2rem;
+}
+
+.giga-button{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-inline: 5.5rem;
 }
 
 .bluelink {
@@ -34,6 +42,34 @@ body{
 
 .margin-right{
     margin-right: 3rem;
+}
+
+.margin-top{
+    margin-top: 4rem;
+}
+
+.margin-top-small{
+    margin-top: 2rem;
+}
+
+.margin-top-mini{
+    margin-top: 1rem;
+}
+
+.margin-top-big{
+    margin-top: 7rem;
+}
+
+.padding-bottom{
+    padding-bottom: 4rem;
+}
+
+.padding-bottom-small{
+    padding-bottom: 2rem;
+}
+
+.padding-top-mini{
+    padding-top: 1rem;
 }
 
 .vertical-align{
@@ -58,12 +94,18 @@ ul{
     color: #D0D0D3;
 }
 
+.bold{
+    font-weight: 900;
+}
+
 /*Header*/
+
 header{
     position: relative;
     width: 100%;
     background-color: #B4D0E7;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -76,11 +118,12 @@ nav{
     right: 0;
     top: 0;
     z-index: 100;
-    
 }
+
 .nav-left, .nav-right{
     flex: 0 0 30%;
 }
+
 nav div ul{
     display: flex;
     justify-content: space-around;
@@ -88,8 +131,11 @@ nav div ul{
     gap: 1.8rem;
     align-items: center;
 }
-
-
+/*
+.fa-euro-sign{
+    padding-bottom: 1rem;
+}
+*/
 .container-header{                          /*main header*/
    padding-top: 6rem;
    max-width: 1200px;
@@ -108,21 +154,17 @@ nav div ul{
     margin-top: 3rem;
     font-size: 4.5rem;
     font-weight: 900;
-   
 }
 
 .header-left, .header-right{
     display: flex;
 }
 
-
 .header-left{
-
     flex: 0 0 30%;
     flex-direction: column;
     justify-content: start;
     gap: 2rem;
-    
 }
 
 .header-left .big-button{
@@ -138,7 +180,6 @@ nav div ul{
     display: flex;
     margin-top: 5rem;
     padding-bottom: 1.5rem;
-
 }
 
 .header-p{
@@ -149,12 +190,12 @@ nav div ul{
     position: relative;
     width: 100%;
 }
+
 .header-right img{
     width: 100%;
     position: absolute;
     bottom: -5rem;
     right: 0rem;
-
 }
 
 /*Main*/
@@ -180,6 +221,7 @@ input[type="radio"]{
 .section-container{
     margin-top: 4rem;
     display: flex;
+    gap: 2rem;
 }
 
 .business-plan{
@@ -192,15 +234,20 @@ input[type="radio"]{
 
 .card{                            /*Card*/
     border: 1px solid black;
+    flex: 0 0 33%;
 }
+
 
 .card-body ul{
     padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
 }
-
+    
 .card-body li{
     margin-top: 1.5rem;
-}
+    display: inline-block;
+}   
 
 .centrato{
     padding-top: 3rem;
@@ -208,13 +255,19 @@ input[type="radio"]{
     padding-bottom: 2rem;
 }
 
-.weightup{
-    font-weight: 900;
-}
 
 .bottomline{
     width: 4rem;
     border-bottom: 1px solid #D0D0D3;
 }
 
+
+.padding-bottom-small{
+    padding-bottom: 1rem;
+}
+
+
+.team-horizontal-card{           /* Team Horizontal Card */
+
+}
 /*Footer*/
