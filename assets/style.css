@@ -340,7 +340,7 @@ input[type="radio"]{
 }
  
 
-.second-section-header{
+.second-section-header{               /* Second Section */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -350,10 +350,19 @@ input[type="radio"]{
 }
 
 .second-section-main{
+   
+}
+
+.first-half{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+}
 
+.second-half{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .second-section-header{
