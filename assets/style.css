@@ -408,6 +408,7 @@ input[type="radio"]{
 }
 
 .quadratozzi div img{
+    min-width: 200px;
     width: 200px;
 }
 
@@ -435,4 +436,6 @@ input[type="radio"]{
     width: 300px;
     height: 300px;
 }
+
+
 /*Footer*/
