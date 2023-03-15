@@ -126,15 +126,15 @@ ul{
     font-size: 0.8rem;
 }
 
-/*Header*/
+                                             
 
-header{
+header{                                             /*Header*/
     position: relative;
     width: 100%;
     background-color: #B4D0E7;
 }
 
-nav{
+nav{                                            /*Nav*/
     display: flex;
     justify-content: space-between;
     height: 5rem;
@@ -161,6 +161,7 @@ nav{
 
 .black:hover{
     background-color: #F5F5F5;
+    text-decoration: underline;
 }
 
 .nav-left ul li a{
@@ -187,8 +188,45 @@ nav div ul{
     color: black;
 }
 
-.fa-arrow-down:active{
+.dropdown-one{                        /*test dropdown*/
+    position: relative;
+}
 
+.nascondino-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top: 5rem;
+    left: 12rem;
+    background-color: #F5F5F5;
+    height: 365px;
+    width: 400px;
+}
+
+.random-flex{
+    display: flex;
+}
+.dropdown-one:hover + .nascondino-one{
+    display: inline-block;
+}
+.nascondino-one:hover +{
+    display: inline-block;
+}
+
+.nascondino-one ul{
+flex-direction: column;
+}
+
+.nascondino-one ul{
+    flex: 0 0 calc(100% / 3);
+    display: flex;
+    justify-content: center;
+}
+
+.nascondino-one a{
+    color: black;
 }
 
 .container-header{                          /*main header*/
@@ -271,6 +309,7 @@ nav div ul{
 input[type="radio"]{
     width: 20px;
     height: 20px;
+    vertical-align: sub;
 }
 
 .section-container{
