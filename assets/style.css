@@ -437,5 +437,50 @@ input[type="radio"]{
     height: 300px;
 }
 
+.redtwo{
+    background-color: #D5001F;
+    width: 300px;
+    height: 300px;
+}
+
+.celestino{
+    background-color: #B4D0E7;
+    width: 300px;
+    height: 300px;
+}
+
+.blue{
+    background-color: #0D2481;
+    width: 300px;
+    height: 300px;
+}
+
+.yellow{
+    background-color: #FFD830;
+    width: 300px;
+    height: 300px;
+}
+    
+
+.mid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+   
+
+.mid-container ul li{
+    margin-top: 2rem;
+}
+
+
+.mid-container ul{
+    width: 80%;
+    margin-inline: auto;
+}
+
+
+
 
 /*Footer*/
