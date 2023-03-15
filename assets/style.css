@@ -44,6 +44,15 @@ body{
     text-decoration: none;
 }
 
+.whitelink {
+    background-color: white;
+    text-decoration: none;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-inline: 3rem;
+    display: inline-block;
+}
+
 .white-button {
     border: 1px solid black;
     text-decoration: none;
@@ -480,7 +489,78 @@ input[type="radio"]{
     margin-inline: auto;
 }
 
+.fourth-section{             /*Fourth-section*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fourth-section h2{
+    color: #61082B;
+    font-size: 2.2rem;
+}
 
 
+.fourth-section-background{
+    background-color: #B4D0E7;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-section div{
+    flex: 0 0 45%;
+}
+
+.fifth-section{                /*Fifth-section*/
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    align-items: center;
+}
+
+.fifth-section ul{
+    width: 100%;
+}
+
+.fifth-section h2{
+    font-size: 2.5rem;
+}
+
+.bipartizione{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+.bipartizione .fa-chevron-down{
+    font-size: 1rem;
+    flex: 0 0 10%;
+}
+
+.bipartizione span{
+    flex: 0 0 70%;
+}
+
+.under-line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+    
 
 /*Footer*/
+
+footer{
+    background-color: black;
+    height: 500px;
+}
+
+footer .one-k-width{
+    color: white;
+    display: flex;
+    height: 100%;
+}
