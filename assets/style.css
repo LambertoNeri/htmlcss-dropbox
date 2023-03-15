@@ -152,6 +152,25 @@ nav{
     flex: 0 0 30%;
 }
 
+
+.black{
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 1.9rem;
+}
+
+.black:hover{
+    background-color: #F5F5F5;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+}
+
+.nav-right ul li a{
+    text-decoration: none;
+}
+
 nav div ul{
     display: flex;
     justify-content: space-around;
@@ -159,11 +178,19 @@ nav div ul{
     gap: 1.8rem;
     align-items: center;
 }
-/*
-.fa-euro-sign{
-    padding-bottom: 1rem;
+
+.fa-arrow-down{
+    cursor: pointer;
 }
-*/
+
+.tofooter{
+    color: black;
+}
+
+.fa-arrow-down:active{
+
+}
+
 .container-header{                          /*main header*/
    padding-top: 6rem;
    max-width: 1200px;
@@ -557,10 +584,67 @@ input[type="radio"]{
 footer{
     background-color: black;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-footer .one-k-width{
+.container-footer{
     color: white;
     display: flex;
+    margin-inline: auto;
     height: 100%;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    
 }
+
+.container-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-footer ul li{
+    margin-top: 1.5rem;
+}
+
+.container-ul{
+    flex: 0 0 20%;
+}
+
+.container-ul{
+    display: flex;
+    justify-content: center;
+}
+
+.top-line{
+    border-top: 1px white solid;
+    width: 8rem;
+    color: #969899;
+    padding-top: 3rem;
+    margin-left: 2rem;
+}
+.onepointtwo{
+    width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: start;
+    flex: 0 0 40%;
+    align-items: center;
+ }
+ .some-padding{
+    vertical-align: baseline;
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .fa-sort-up{
+    vertical-align: sub;
+ }
+
+ .container-ul a:hover{
+    text-decoration: underline;
+    color: white;
+ }
+
