@@ -211,7 +211,8 @@ nav div ul{
 .dropdown-one:hover + .nascondino-one{
     display: inline-block;
 }
-.nascondino-one:hover +{
+
+.nascondino-one:hover {
     display: inline-block;
 }
 
