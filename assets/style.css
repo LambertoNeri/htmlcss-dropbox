@@ -167,7 +167,7 @@ nav{                                            /*Nav*/
 .nav-left ul li a{
     text-decoration: none;
 }
-
+                                                /*DOMANDA HENRI 1*/
 .nav-right ul li a{
     text-decoration: none;
 }
@@ -199,7 +199,7 @@ nav div ul{
     display: none;
     position: absolute;
     top: 5rem;
-    left: 12rem;
+    left: 12.1rem;
     background-color: #F5F5F5;
     height: 365px;
     width: 400px;
@@ -210,6 +210,10 @@ nav div ul{
 }
 .dropdown-one:hover + .nascondino-one{
     display: inline-block;
+}
+
+.nascondino-one:hover + .dropdown-one{
+    background-color: #F5F5F5;
 }
 
 .nascondino-one:hover {
@@ -294,7 +298,7 @@ flex-direction: column;
 
 /*Main*/
 
-.section-one{                                        /*First Section*/  
+.section-one{                                  /*First Section*/  
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
@@ -366,7 +370,7 @@ input[type="radio"]{
 .team-horizontal-card{           /* Team Horizontal Card */
   border: 1px solid black;
 }
-
+                                       /*DOMANDA HENRI 2*/
 .horizontal-card-header{
     width: 100%;
     border-bottom: 1px solid black;
